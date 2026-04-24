@@ -1,0 +1,36 @@
+#age
+18 25
+#sex
+F F
+#hight
+165 175
+#weight
+40 45
+#FC_base_values
+45 55
+#FC_begin_values
+55 70
+#PAS_base_values
+85 95
+#PAS_begin_values
+95 110
+#PAM_base_values
+55 65
+#PAM_begin_values
+65 75
+#PAD_base_values
+40 50
+#PAD_begin_values
+50 60
+#temp_base_values
+36.5 37.2
+#temp_begin_values
+35.5 36.2
+#SpO2_base_values
+98 100
+#SpO2_begin_values
+98 100
+#FR_base_values
+10 14
+#FR_begin_values
+12 16

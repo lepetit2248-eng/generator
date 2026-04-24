@@ -104,33 +104,75 @@ std::string rand_time(std::string event_time_interval){
  */
 structure_patient Read_patient_parameters(std::string file_patient_parameters_name){
   //variable instantiation
- structure_patient patient;
- std::string variable;
- std::ifstream file_patient_parameters;
+  structure_patient patient;
+  std::string variable;
+  std::ifstream file_patient_parameters;
 
- file_patient_parameters.open(file_patient_parameters_name); //Open file stream
- if(file_patient_parameters){ //opening is ok!
-   while(getline(file_patient_parameters, variable)) {
-     if(variable=="#age"){
-       getline(file_patient_parameters, variable);
-       patient.age=std::stoi(variable);
-     }else  if(variable=="#sex"){
-       getline(file_patient_parameters, variable);
-       patient.sex=variable[0];
-     }else  if(variable=="#hight"){
-       getline(file_patient_parameters, variable);
-       patient.hight=std::stoi(variable);
-     }else  if(variable=="#weight"){
-       getline(file_patient_parameters, variable);
-       patient.weight=std::stoi(variable);
-     }
-   }
-  }else{
-    std::cout << "ERROR: File \"patient_parameters\"opening impossible." << std::endl;
+  file_patient_parameters.open(file_patient_parameters_name); //Open file stream
+  if(file_patient_parameters){ //opening is ok!
+   
+    // Initialisation du générateur de nombres aléatoires
+    std::random_device rd;
+    std::mt19937 gen(rd());
+
+    while(getline(file_patient_parameters, variable)) {
+      if(variable=="#age"){
+        getline(file_patient_parameters, variable);
+        size_t space_pos = variable.find(" ");
+        if(space_pos != std::string::npos) {
+            int min_val = std::stoi(variable.substr(0, space_pos));
+            int max_val = std::stoi(variable.substr(space_pos + 1));
+            std::uniform_int_distribution<> distrib(min_val, max_val);
+            patient.age = distrib(gen);
+        } else {
+            patient.age = std::stoi(variable);
+        }
+        
+      }else  if(variable=="#sex"){
+        getline(file_patient_parameters, variable);
+        size_t space_pos = variable.find(" ");
+        if(space_pos != std::string::npos) {
+            char c1 = variable[0];
+            char c2 = variable[space_pos + 1];
+            std::uniform_int_distribution<> distrib(0, 1);
+            patient.sex = (distrib(gen) == 0) ? c1 : c2;
+        } else {
+            patient.sex = variable[0];
+        }
+        
+      }else  if(variable=="#hight"){
+        getline(file_patient_parameters, variable);
+        size_t space_pos = variable.find(" ");
+        if(space_pos != std::string::npos) {
+            int min_val = std::stoi(variable.substr(0, space_pos));
+            int max_val = std::stoi(variable.substr(space_pos + 1));
+            std::uniform_int_distribution<> distrib(min_val, max_val);
+            patient.hight = distrib(gen);
+        } else {
+            patient.hight = std::stoi(variable);
+        }
+        
+      }else  if(variable=="#weight"){
+        getline(file_patient_parameters, variable);
+        size_t space_pos = variable.find(" ");
+        if(space_pos != std::string::npos) {
+            int min_val = std::stoi(variable.substr(0, space_pos));
+            int max_val = std::stoi(variable.substr(space_pos + 1));
+            std::uniform_int_distribution<> distrib(min_val, max_val);
+            patient.weight = distrib(gen);
+        } else {
+            patient.weight = std::stoi(variable);
+        }
+      }
+    } // Fin du while
+  } else { // <-- L'accolade manquante était celle juste avant ce else !
+    std::cout << "ERROR: File \"patient_parameters\" opening impossible." << std::endl;
   }
+  
   file_patient_parameters.close();
   return patient;
 }
+
 /**
  * \brief
  * \param

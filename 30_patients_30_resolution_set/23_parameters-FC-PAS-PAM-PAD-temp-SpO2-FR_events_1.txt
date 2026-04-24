@@ -1,0 +1,38 @@
+Time,Event
+0,Mise en place du patient
+30,Monitorage FC
+60,Monitorage PAM
+90,Monitorage SPO2
+120,Monitorage BIS
+360,pose VVP (cathlon)
+420,Bair hugger
+480,pré-oxygénation
+510,SUFENTANIL_induction
+540,KETAMINE_induction
+570,PROPOFOL_induction
+600,Occlusion oculaire
+660,intubation
+690,SEVOFLURANE_continu
+720,Ventilation contrôlé intubée
+750,Oxygène 30%
+780,Auscultation pulmonaire
+810,Surveillance pression ballonnet
+930,Manoeuvre Recrutement Alvéolaire
+960,Pose sonde T°C
+990,Auscultation pulmonaire
+1020,Surveillance points d'appui
+1050,SEVOFLURANE_continu
+1080,Incision
+1200,Ouverture peaucier/muscle
+1230,Ouverture peaucier/muscle
+1260,Mise en place lac tissu rétro-isthmique
+1380,Dissection pôle supérieur (thyroïde)
+1480,Répérage nerf récurrent 
+1980,Dissection glande thyroïde
+2480,Examen extemporané
+2510,Vérification hémostase
+2810,Fermeture
+3210,SUFENTANIL_bolus
+3410,Pansement
+3440,stop sevoflurane
+3890,Sortie du patient
