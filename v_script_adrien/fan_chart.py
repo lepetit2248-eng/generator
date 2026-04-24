@@ -111,4 +111,4 @@ def generate_vertically_stacked_fan_chart(json_file, time_limit=None):
     plt.show()
 
 if __name__ == "__main__":
-    generate_vertically_stacked_fan_chart(json_file='db_patient_propre.json', time_limit=120)
+    generate_vertically_stacked_fan_chart(json_file='db_final_meta.json', time_limit=120)

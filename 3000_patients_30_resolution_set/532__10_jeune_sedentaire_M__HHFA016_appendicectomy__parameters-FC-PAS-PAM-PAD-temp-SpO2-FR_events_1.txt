@@ -1,0 +1,45 @@
+Time,Event
+0,Mise en place du patient
+30,Monitorage FC
+60,Monitorage PAM
+90,Monitorage SPO2
+120,Monitorage BIS
+360,pose VVP (cathlon)
+420,Bair hugger
+450,ORNIDAZOLE_bolus
+510,pré-oxygénation
+540,SUFENTANIL_induction
+570,PROPOFOL_induction
+600,ATRACURIUM_induction
+630,Occlusion oculaire
+690,intubation
+720,SEVOFLURANE_continu
+750,Ventilation contrôlé intubée
+780,Oxygène 30%
+810,Auscultation pulmonaire
+840,Surveillance pression ballonnet
+960,Manoeuvre Recrutement Alvéolaire
+990,Pose sonde T°C
+1020,Auscultation pulmonaire
+1050,Surveillance points d'appui
+1080,SEVOFLURANE_continu
+1110,Incision
+1230,Trocard sous-ombilical
+1260,Inflation pneumopéritoine
+1290,Auscultation pulmonaire
+1350,Exploration cavité abdominale
+1410,Dissection méso-appendice
+1440,Ligature appendice
+1470,Section de l'appendice
+1530,Electrocoagulation
+1650,Extraction de l'appendice
+1680,Toilette péritonéale
+1800,Ablation des trocarts
+1830,Déflation pneumopéritoine
+2130,Fermeture
+2730,Pansement
+2760,stop sevoflurane
+2790,Contrôle de décurarisation
+2820,Décurarusation
+2970,SUFENTANIL_bolus
+3360,Sortie du patient

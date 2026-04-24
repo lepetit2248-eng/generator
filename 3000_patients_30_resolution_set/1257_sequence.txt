@@ -1,0 +1,45 @@
+Time,ID,Name
+0,AGE-insta01,Mise en place du patient
+30,AGE-mofca01,Monitorage FC
+60,AGE-mopam01,Monitorage PAM
+90,AGE-mospo01,Monitorage SPO2
+120,AGE-mobis01,Monitorage BIS
+360,AGE-povvp01,pose VVP (cathlon)
+420,AGE-baihu01,Bair hugger
+450,ADG-cefab01,CEFAZOLINE_bolus
+510,AGE-preox01,pré-oxygénation
+540,ADG-sufei01,SUFENTANIL_induction
+570,ADG-propi01,PROPOFOL_induction
+600,ADG-atrai01,ATRACURIUM_induction
+630,AGE-occoc01,Occlusion oculaire
+690,AGE-intub01,intubation
+720,AGE-colla01,Hypotension sévère
+720,AGE-oxyge02,Oxygène 100%
+720,AGE-rempl01,Remplissage par cristalloïdes
+870,ADG-adreb01,ADRENALINE_bolus
+1170,AGE-stopa01,Fin anphylaxie
+1170,ADG-sevoc01,SEVOFLURANE_continu
+1170,AGE-venco01,Ventilation contrôlé intubée
+1170,AGE-oxyge01,Oxygène 30%
+1200,AGE-auspu01,Auscultation pulmonaire
+1230,AGE-supeb01,Surveillance pression ballonnet
+1350,AGE-marea01,Manoeuvre Recrutement Alvéolaire
+1380,AGE-motem01,Pose sonde T°C
+1410,AGE-auspu01,Auscultation pulmonaire
+1440,AGE-supoa01,Surveillance points d'appui
+1440,ADG-sevoc01,SEVOFLURANE_continu
+1470,AGE-insci01,Incision
+1590,AGE-troca01,Trocard sous-ombilical
+1620,AGE-inpne01,Inflation pneumopéritoine
+1650,AGE-auspu01,Auscultation pulmonaire
+1770,AGE-marea01,Manoeuvre Recrutement Alvéolaire
+2770,AGE-disep01,Dissection espace prépéritonéal
+3270,AGE-discs01,Dissection cordon spermatique
+3770,AGE-diszh01,Dissection cordon zone herniaire
+4770,AGE-mppro01,Mise en place prothèse
+4800,AGE-depne01,Déflation pneumopéritoine
+5100,AGE-ferme01,Fermeture
+5700,AGE-panse01,Pansement
+5760,AGE-cdecu01,Contrôle de décurarisation
+5760,AGE-decur01,Décurarusation
+6240,AGE-insta02,Sortie du patient

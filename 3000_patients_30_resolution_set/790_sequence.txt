@@ -1,0 +1,41 @@
+Time,ID,Name
+0,AGE-insta01,Mise en place du patient
+30,AGE-mofca01,Monitorage FC
+60,AGE-mopam01,Monitorage PAM
+90,AGE-mospo01,Monitorage SPO2
+120,AGE-mobis01,Monitorage BIS
+360,AGE-povvp01,pose VVP (cathlon)
+420,AGE-baihu01,Bair hugger
+450,ADG-cefab01,CEFAZOLINE_bolus
+510,AGE-preox01,pré-oxygénation
+540,ADG-sufei01,SUFENTANIL_induction
+570,ADG-ketai01,KETAMINE_induction
+600,ADG-propi01,PROPOFOL_induction
+630,ADG-atrai01,ATRACURIUM_induction
+660,AGE-occoc01,Occlusion oculaire
+720,AGE-intub01,intubation
+720,ADG-sevoc01,SEVOFLURANE_continu
+720,AGE-venco01,Ventilation contrôlé intubée
+720,AGE-oxyge01,Oxygène 30%
+750,AGE-auspu01,Auscultation pulmonaire
+780,AGE-supeb01,Surveillance pression ballonnet
+900,AGE-marea01,Manoeuvre Recrutement Alvéolaire
+930,AGE-motem01,Pose sonde T°C
+960,AGE-auspu01,Auscultation pulmonaire
+990,AGE-supoa01,Surveillance points d'appui
+990,ADG-sevoc01,SEVOFLURANE_continu
+1020,AGE-insci01,Incision
+1140,AGE-troca01,Trocard sous-ombilical
+1170,AGE-inpne01,Inflation pneumopéritoine
+1200,AGE-auspu01,Auscultation pulmonaire
+1320,AGE-marea01,Manoeuvre Recrutement Alvéolaire
+1420,AGE-disep01,Dissection espace prépéritonéal
+1920,AGE-discs01,Dissection cordon spermatique
+2420,AGE-diszh01,Dissection cordon zone herniaire
+3420,AGE-mppro01,Mise en place prothèse
+3450,AGE-depne01,Déflation pneumopéritoine
+3750,AGE-ferme01,Fermeture
+4350,AGE-panse01,Pansement
+4410,AGE-cdecu01,Contrôle de décurarisation
+4410,AGE-decur01,Décurarusation
+4890,AGE-insta02,Sortie du patient

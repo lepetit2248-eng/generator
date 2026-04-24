@@ -1,0 +1,36 @@
+Time,ID,Name
+0,AGE-insta01,Mise en place du patient
+30,AGE-mofca01,Monitorage FC
+60,AGE-mopam01,Monitorage PAM
+90,AGE-mospo01,Monitorage SPO2
+120,AGE-mobis01,Monitorage BIS
+360,AGE-povvp01,pose VVP (cathlon)
+420,AGE-baihu01,Bair hugger
+480,AGE-preox01,pré-oxygénation
+510,ADG-sufei01,SUFENTANIL_induction
+540,ADG-ketai01,KETAMINE_induction
+570,ADG-propi01,PROPOFOL_induction
+600,AGE-occoc01,Occlusion oculaire
+660,AGE-intub01,intubation
+660,ADG-sevoc01,SEVOFLURANE_continu
+660,AGE-venco01,Ventilation contrôlé intubée
+660,AGE-oxyge01,Oxygène 30%
+690,AGE-auspu01,Auscultation pulmonaire
+720,AGE-supeb01,Surveillance pression ballonnet
+840,AGE-marea01,Manoeuvre Recrutement Alvéolaire
+870,AGE-motem01,Pose sonde T°C
+900,AGE-auspu01,Auscultation pulmonaire
+930,AGE-supoa01,Surveillance points d'appui
+930,ADG-sevoc01,SEVOFLURANE_continu
+960,AGE-insci01,Incision
+1080,AGE-ouver01,Ouverture peaucier/muscle
+1110,AGE-ouver01,Ouverture peaucier/muscle
+1140,AGE-lacri01,Mise en place lac tissu rétro-isthmique
+1260,AGE-disps01,Dissection pôle supérieur (thyroïde)
+1360,AGE-repnr01,Répérage nerf récurrent 
+1860,AGE-disth01,Dissection glande thyroïde
+2360,AGE-exext01,Examen extemporané
+2390,AGE-reshe01,Vérification hémostase
+2690,AGE-ferme01,Fermeture
+3290,AGE-panse01,Pansement
+3830,AGE-insta02,Sortie du patient

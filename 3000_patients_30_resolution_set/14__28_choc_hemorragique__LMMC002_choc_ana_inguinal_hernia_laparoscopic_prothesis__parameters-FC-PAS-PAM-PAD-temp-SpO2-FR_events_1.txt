@@ -1,0 +1,53 @@
+Time,Event
+0,Mise en place du patient
+30,Monitorage FC
+60,Monitorage PAM
+90,Monitorage SPO2
+120,Monitorage BIS
+360,pose VVP (cathlon)
+420,Bair hugger
+450,CEFAZOLINE_bolus
+510,pré-oxygénation
+540,SUFENTANIL_induction
+570,KETAMINE_induction
+600,THIOPENTAL_induction
+630,ATRACURIUM_induction
+660,Occlusion oculaire
+720,intubation
+750,Hypotension sévère
+780,Oxygène 100%
+810,Remplissage par cristalloïdes
+960,ADRENALINE_bolus
+1260,Fin anphylaxie
+1290,SEVOFLURANE_continu
+1320,Ventilation contrôlé intubée
+1350,Oxygène 30%
+1380,Auscultation pulmonaire
+1410,Surveillance pression ballonnet
+1530,Manoeuvre Recrutement Alvéolaire
+1560,Pose sonde T°C
+1590,Auscultation pulmonaire
+1620,Surveillance points d'appui
+1650,SEVOFLURANE_continu
+1680,Incision
+1710,THIOPENTAL_bolus
+1830,Trocard sous-ombilical
+1860,Inflation pneumopéritoine
+1890,Auscultation pulmonaire
+2010,Manoeuvre Recrutement Alvéolaire
+2110,Dissection espace prépéritonéal
+2610,Dissection cordon spermatique
+2640,THIOPENTAL_bolus
+3140,Dissection cordon zone herniaire
+3480,SUFENTANIL_bolus
+3540,THIOPENTAL_bolus
+4140,Mise en place prothèse
+4170,Déflation pneumopéritoine
+4440,THIOPENTAL_bolus
+4470,Fermeture
+5070,Pansement
+5100,stop sevoflurane
+5130,Contrôle de décurarisation
+5160,Décurarusation
+5370,THIOPENTAL_bolus
+5640,Sortie du patient
