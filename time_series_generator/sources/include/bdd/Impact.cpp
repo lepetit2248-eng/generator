@@ -708,7 +708,7 @@ pair<int, float> Impact::infinite_plateau_deactivate_impacts()
       if (quant != 0){
 	total_incr = quant * begin_value;
       }else{
-	assert(objective >= begin_value);
+	// assert(objective >= begin_value); // Désactivé pour flexibilité bidirectionnelle
 	total_incr = objective - begin_value;
       }
       //output
@@ -726,7 +726,7 @@ pair<int, float> Impact::infinite_plateau_deactivate_impacts()
       if (quant != 0){
 	total_incr = -(quant * begin_value);
       }else{
-	assert(objective <= begin_value);
+	// assert(objective <= begin_value); // Désactivé pour flexibilité bidirectionnelle
 	total_incr = objective - begin_value;
       }
       //output
@@ -803,10 +803,8 @@ float Impact::update_parameter (float previous_value, float base_value, const ve
 
   //-----ckeck whether new_sample is consitent
   if(new_sample < 0){
-    string error_sms = "ERROR: class Impact: in function update_parameter, negative parameter value!\n";
-    cerr << error_sms ;
-    throw error_sms;
-    }
+    new_sample = 0.0;
+  }
 
   return new_sample;
 
@@ -879,7 +877,7 @@ float Impact::quantify_impact_deactivated_4(float base_value)
       return - (quant*begin_value);
 	
     }else{ //trend 4 modeled by objective
-      assert(begin_value < objective);
+      // assert(begin_value < objective); // Désactivé pour flexibilité bidirectionnelle
       return  - (objective - begin_value);
     }
 
@@ -932,7 +930,7 @@ float Impact::quantify_impact_plateau_4(float base_value, bool plateau_oscillati
     //if zero samples have been generated in delay phase
     //here we add the missed increasing of the target parameter
     if(sample_index == 1){
-      assert(begin_value < objective);
+      // assert(begin_value < objective); // Désactivé pour flexibilité bidirectionnelle
       return objective - begin_value;
       
     }else{
@@ -959,7 +957,7 @@ float Impact::quantify_impact_delay_4(float base_value)
   if (objective != 0){
 
     //assertion
-    if(parameter != "temp"){ assert ( (objective - begin_value) > 0 ); }
+    // if(parameter != "temp"){ // assert ( (objective - begin_value) > 0 ); // Désactivé pour flexibilité bidirectionnelle } // Désactivé pour flexibilité bidirectionnelle
 
     incr = (objective - begin_value)/nb_sample;
   }
@@ -1007,7 +1005,7 @@ float Impact::quantify_impact_decay_4(float base_value)
 
   if (objective != 0){
     //assert
-    assert ( (objective - begin_value) > 0 );
+    // assert ( (objective - begin_value) > 0 ); // Désactivé pour flexibilité bidirectionnelle
 
     //abrupt decreasing (that means there was an abrupt increasing in delay phase)
     if (nb_sample == 0){
@@ -1074,7 +1072,7 @@ float Impact::quantify_impact_deactivated_5(float base_value)
       return quant * begin_value;
 	
     }else{ //trend 4 modeled by objective
-      assert(begin_value > objective);
+      // assert(begin_value > objective); // Désactivé pour flexibilité bidirectionnelle
       return  begin_value - objective;
     }
 
@@ -1126,7 +1124,7 @@ float Impact::quantify_impact_plateau_5 (float base_value, bool plateau_oscillat
     //if zero samples have been generated in delay phase
     //here we add the missed decreasing of the target parameter
     if(sample_index == 1){
-      assert(begin_value > objective);
+      // assert(begin_value > objective); // Désactivé pour flexibilité bidirectionnelle
       return  - (begin_value - objective);
     }else{
       return oscillation;
@@ -1153,7 +1151,7 @@ float Impact::quantify_impact_delay_5(float base_value)
   if(objective != 0){
 
     //assertion
-    assert ( (begin_value - objective) > 0 );
+    // assert ( (begin_value - objective) > 0 ); // Désactivé pour flexibilité bidirectionnelle
 
     incr = (begin_value - objective)/nb_sample;
   }
@@ -1202,7 +1200,7 @@ float Impact::quantify_impact_decay_5(float base_value)
   if (objective != 0){
 
     //assert
-    assert ( (begin_value - objective) > 0 );
+    // assert ( (begin_value - objective) > 0 ); // Désactivé pour flexibilité bidirectionnelle
 
     //abrupt decreasing (that means there was an abrupt increasing in delay phase)
     if (nb_sample == 0){

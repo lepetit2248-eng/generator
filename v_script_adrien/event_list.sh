@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET_DIR="../100_patients_60_resolution_set"
+TARGET_DIR="../300_patients_30_resolution_set"
 OUTPUT_FILE="event_list.txt"
 
 if [ ! -d "$TARGET_DIR" ]; then

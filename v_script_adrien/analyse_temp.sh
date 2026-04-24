@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Dossier cible
-TARGET_DIR="../30_patients_30_resolution_set"
+TARGET_DIR="../300_patients_30_resolution_set"
 
 # Vérifier si le dossier existe
 if [ ! -d "$TARGET_DIR" ]; then
