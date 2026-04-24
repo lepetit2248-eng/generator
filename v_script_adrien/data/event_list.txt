@@ -1,0 +1,42 @@
+1: ATRACURIUM_bolus
+2: ATRACURIUM_induction
+3: Auscultation pulmonaire
+4: Bair hugger
+5: CEFAZOLINE_bolus
+6: Contrôle de décurarisation
+7: Décurarusation
+8: Déflation pneumopéritoine
+9: Dissection cordon spermatique
+10: Dissection cordon zone herniaire
+11: Dissection espace prépéritonéal
+12: Event
+13: Fermeture
+14: Incision
+15: Inflation pneumopéritoine
+16: intubation
+17: KETAMINE_induction
+18: Manoeuvre Recrutement Alvéolaire
+19: Mise en place du patient
+20: Mise en place prothèse
+21: Monitorage BIS
+22: Monitorage FC
+23: Monitorage PAM
+24: Monitorage SPO2
+25: Occlusion oculaire
+26: Oxygène 30%
+27: Pansement
+28: Pose sonde T°C
+29: pose VVP (cathlon)
+30: pré-oxygénation
+31: PROPOFOL_induction
+32: SEVOFLURANE_continu
+33: Sortie du patient
+34: stop sevoflurane
+35: SUFENTANIL_bolus
+36: SUFENTANIL_induction
+37: Surveillance points d'appui
+38: Surveillance pression ballonnet
+39: THIOPENTAL_bolus
+40: THIOPENTAL_induction
+41: Trocard sous-ombilical
+42: Ventilation contrôlé intubée

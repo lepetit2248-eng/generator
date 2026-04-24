@@ -1,0 +1,1 @@
+g++ src/text_to_bin.cpp -o serieTextToBin.exe -L /usr/local/boost_1_72_0/stage/lib/* -I /usr/local/boost_1_72_0
